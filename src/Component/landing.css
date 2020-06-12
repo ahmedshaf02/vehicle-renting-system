@@ -1,0 +1,18 @@
+
+.cycleMoving{
+
+  transform:rotate(-45deg);
+}
+img{ 
+  position: relative;
+  animation-name: catmove;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+ 
+}
+@keyframes catmove{
+   0%{}
+   50%{transform:rotate(-35deg) }
+   100%{} 
+}
