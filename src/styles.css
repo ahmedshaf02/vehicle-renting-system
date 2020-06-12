@@ -4,3 +4,6 @@
   background-color: black;
   color: white
 }
+body{
+  box-sizing: border-box
+}

@@ -9,10 +9,43 @@ img{
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
- 
+  
 }
-@keyframes catmove{
+/* img:hover{
+  transform:rotate(0deg);
+  animation-duration: 0s;
+
+} */
+/* @keyframes catmove{
    0%{}
    50%{transform:rotate(-35deg) }
    100%{} 
+} */
+
+.homeNav{
+  color:rgb(251, 96, 127);
+  margin: 6px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 6px 10px;
+  transition: font-size 0.5s;
+  
+  
+}
+.homeNav:hover{
+  color:white;
+  margin: 5px;
+  font-size: 22px;
+  border: 2px solid rgb(251, 96, 127);
+  border-radius: 5px;
+  padding: 6px 10px;
+  text-decoration: none
+  
+}
+.goIcon{
+  font-size: 3em;
+  background: rgb(251, 96, 127);
+  border: 2px solid rgb(251, 96, 127);
+  border-radius: 50%
 }
