@@ -8,14 +8,16 @@ const NavigationLanding = ()=>{
 return(
 
   <>
-    <div className="float-left">
+  <div className="container">
+    <div className="float-left m-2">
        <Link className="homeNav">Home</Link>
     </div>
-    <div className="float-right">
+    <div className="float-right m-2">
        <Link className="homeNav">Offers</Link>
        <Link className="homeNav">Join Now</Link>
     </div>
     <div className="float-clear"></div>
+  </div>
   </>
 )
 }

@@ -2,7 +2,9 @@
   font-family: sans-serif;
   text-align: center;
   background-color: black;
-  color: white
+  color: white;
+  height: 100vh;
+
 }
 body{
   box-sizing: border-box
