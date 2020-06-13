@@ -47,4 +47,13 @@ img{
   background: rgb(251, 96, 127);
   border: 2px solid rgb(251, 96, 127);
   border-radius: 50%;
+  animation-name: iconmove;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes iconmove{
+  0%{}
+  50%{transform:translate(0px,10px) }
+  100%{} 
 }
